@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+.header {
+    background: linear-gradient(135deg, #822db2, #f44f82);
+    color: white;
+    padding: 20px 60px;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ddd;
+}
+
+.btn-download {
+    text-decoration: none;
+    color: white;
+    background-color: #ff5b79;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-download:hover {
+    background-color: #e0486a;
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+ 
+/*features section*/
+
+.features-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b48acf;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: #b48acf;
+    margin-bottom: 40px;
+}
+
+/* Features Grid */
+.features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+/* Individual Feature Card */
+.feature-item {
+    background-color: #ffffff;
+    color: #b48acf;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Feature Icon */
+.feature-icon {
+    font-size: 40px;
+    color: #b48acf;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+/* pricing section*/
+
+.pricing-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b48acf;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+/* Pricing Cards */
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Pricing Card Content */
+.pricing-type {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b48acf;
+    margin-bottom: 10px;
+}
+
+.pricing-price {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.pricing-price span {
+    font-size: 18px;
+    color: #666666;
+}
+
+.pricing-details {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.pricing-details li {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff007a;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e6006b;
+}
+
+/*F A Q*/
+
+.faq-section {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-title {
+    text-align: center;
+    font-size: 24px;
+    color: #6A50E2;
+    margin-bottom: 20px;
+  }
+  
+  .faq-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .faq-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+  }
+  
+  .faq-item h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #6A50E2;
+  }
+  
+  .faq-item p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #555;
+  }
+
+  /* contact and footer*/
+
+  .footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-info p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .footer-info i {
+    margin-right: 5px;
+    color: #6A50E2;
+  }
+  
+  .footer-social a {
+    margin: 0 5px;
+    color: #6A50E2;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .footer-social a:hover {
+    color: #333;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: #6A50E2;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
